@@ -9,15 +9,23 @@ div{
     color: #fff;
 }
 .nav-top{
-
+    color: transparent;
+    position: sticky;
     background-color: #2e1e1d;
     padding:1%;
+    padding-bottom:1.5%;
+    top: 0px;
+    z-index:999;
+}
+.nav-button{
+    float: right;
 }
 .nav-top button{
+    
     background: none;
-  border-radius:10px;
-  border:0.5px #fff solid;
-  color:#fff;
+    border-radius:10px;
+    border:0.5px #fff solid;
+    color:#fff;
 }
 /*頂端*/
 
